@@ -1,0 +1,13 @@
+from langchain_community.document_loaders import TextLoader
+from langchain_community.text_splitter import CharacterTextSplitter
+from langchain_community.embeddings import OpenAIEmbeddings
+from langchain_community.vectorstores import Chroma
+from langchain_community.chains import RetrievalQA
+from langchain_community.chat_models import ChatOpenAI
+from langchain_community.prompts import ChatPromptTemplate
+from langchain_community.prompts import PromptTemplate
+from langchain_community.prompts import MessagesPlaceholder
+from langchain_community.prompts import SystemMessagePromptTemplate
+from langchain_community.prompts import HumanMessagePromptTemplate
+
+# Chunking and Indexing main file
