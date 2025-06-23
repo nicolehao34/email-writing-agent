@@ -15,3 +15,12 @@ Through this project, I wanted to learn
     - For service/product questions: The system uses RAG to retrieve accurate information from agency documents and generates a response.
 - Quality Assurance: Each draft email undergoes AI quality and formatting checks.
 - Sending: Approved emails are sent to the client promptly, ensuring timely communication.
+
+
+# Prerequisites
+
+Prerequisites
+Python 3.7+
+Groq api key
+Google Gemini api key (for embeddings)
+Gmail API credentials
